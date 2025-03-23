@@ -17,8 +17,12 @@ I am particularly interested in high-energy astrophysical phenomena such as blac
 
 In the summer of 2024, I worked with [Dr. A. Mummery](https://www.physics.ox.ac.uk/our-people/mummery) on tidal forces in general relativity. We developed a general, analytic framework for computing the local tidal tensor along a time-like geodesic in any stationary, axisymmetric spacetime. This work is currently being prepared for publication.
 
+I am now working on an extension to the above project, where I wish to apply our theoretical results to predict rates of relativistic tidal disruption events. This work is supervised by [Prof. J. Binney](https://www.physics.ox.ac.uk/our-people/binney) and [Dr. Y. B. Ginat](https://www.physics.ox.ac.uk/our-people/ginat) under the Dyson Fellows programme, where we learn about frontier research in galactic dynamics.
+
+I look forward to working under the group of [Prof. Y. Huan](https://i.astro.tsinghua.edu.cn/~yanghuan/all/index_en.html) at Tsinghua University this summer!
+
 ## Hobbies
 
-I play video games competitively. I am currently the IGL (in-game leader) of Counter-Strike team under the Oxford University eSports Society.
+I play video games competitively. I am currently the IGL (in-game leader) for Counter-Strike team of the Oxford University eSports Society.
 
 I also brew filter coffee (V60 and aeropress) and enjoy reading science fiction and social science books.
