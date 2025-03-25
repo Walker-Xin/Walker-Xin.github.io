@@ -19,7 +19,7 @@ In the summer of 2024, I worked with [Dr. A. Mummery](https://www.physics.ox.ac.
 
 I am now working on an extension to the above project, where I wish to apply our theoretical results to predict rates of relativistic tidal disruption events. This work is supervised by [Prof. J. Binney](https://www.physics.ox.ac.uk/our-people/binney) and [Dr. Y. B. Ginat](https://www.physics.ox.ac.uk/our-people/ginat) under the Dyson Fellows programme, where we learn about frontier research in galactic dynamics.
 
-I look forward to working under the group of [Prof. Y. Huan](https://i.astro.tsinghua.edu.cn/~yanghuan/all/index_en.html) at Tsinghua University this summer!
+I look forward to working under the group of [Prof. H. Yang](https://i.astro.tsinghua.edu.cn/~yanghuan/all/index_en.html) at Tsinghua University this summer!
 
 ## Hobbies
 
