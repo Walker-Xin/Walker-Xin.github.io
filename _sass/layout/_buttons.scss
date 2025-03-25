@@ -62,7 +62,7 @@
 
   &--light-outline {
     border: 1px solid #fff !important; /* override*/
-    background-color: transparent;
+    background-color: mix(white, #000, 20%);
   }
 
   /* information */
