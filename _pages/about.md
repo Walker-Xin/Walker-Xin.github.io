@@ -19,7 +19,7 @@ In the summer of 2024, I worked with [Dr. A. Mummery](https://www.physics.ox.ac.
 
 I am now working on an extension to the above project, where I wish to apply our theoretical results to predict rates of relativistic tidal disruption events. This work is supervised by [Prof. J. Binney](https://www.physics.ox.ac.uk/our-people/binney) and [Dr. Y. B. Ginat](https://www.physics.ox.ac.uk/our-people/ginat) under the Dyson Fellows programme, where we learn about frontier research in galactic dynamics.
 
-I look forward to working under the group of [Prof. H. Yang](https://i.astro.tsinghua.edu.cn/~yanghuan/all/index_en.html) at Tsinghua University this summer!
+I am also working with [Dr. M. Rozner](https://morozner.wixsite.com/mysite) under a summer internship programme at Institue of Astronomy, University of Cambridge. We are generalising Heggie's law to binaries with non-zero eccentricity and using numerical 3-body simulations to verify the theoretical predictions.
 
 ## Hobbies
 
