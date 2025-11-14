@@ -25,11 +25,11 @@ author:
   avatar           : "avatar.png"
   name             : "Wenkang Xin"
   pronouns         : # example: "she/her"  
-  bio              : "Undergraduate at University of Oxford"
+  bio              : "Undergraduate at University of Oxford \\ wenkang_xin AT outlook DOT com"
   # location         : "Oxford"
   # employer         : "University of Oxford"
   uri              : # URL
-  email            : "wenkang_xin@outlook.com"
+  # email            : "wenkang_xin@outlook.com"
   # cv               : "files/resume.pdf"
 
   # Academic websites
