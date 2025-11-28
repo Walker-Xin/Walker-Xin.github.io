@@ -136,4 +136,15 @@
 {% if site.yandex_site_verification %}
   <meta name="yandex-verification" content="{{ site.yandex_site_verification }}">
 {% endif %}
+
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "WebSite",
+    "name": "{{ site.title }}",
+    "url": "{{ seo_url }}",
+    "alternateName": "{{ site.name }}"
+  }
+</script>
+
 <!-- end SEO -->
