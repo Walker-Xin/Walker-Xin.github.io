@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "About me"
+title: "About Me"
 author_profile: true
 redirect_from: 
   - /about/
@@ -13,9 +13,9 @@ Prior to university, I completed my O- and A-levels in Singapore under the MOE J
 
 ## Research interests
 
-I am particularly interested in high-energy astrophysical phenomena such as tidal disruption events. I am also interested in the development of symbolic and numerical tools for the study of general relativity and strong-field gravity.
+I am particularly interested in high-energy astrophysical phenomena such as tidal disruption events. I also develop symbolic and numerical tools for the study of general relativity and strong-field gravity.
 
-In the summer of 2024, I worked with [Dr. A. Mummery](https://www.ias.edu/scholars/andrew-mummery) under a summer internship at Oxford Theoretical Physics. We developed a general, analytic framework for computing the local tidal tensor along a time-like geodesic in any stationary, axisymmetric spacetime. This work is now under review for publication in *Physical Review D*.
+In the summer of 2024, I worked with [Dr. A. Mummery](https://www.ias.edu/scholars/andrew-mummery) under a summer internship at Oxford Theoretical Physics. We developed a general, analytic framework for computing the local tidal tensor along a time-like geodesic in any stationary, axisymmetric spacetime. This work is now on arXiv: [2511.21499](https://arxiv.org/abs/2511.21499) and has been accepted with minor revisions by *Physical Review D*.
 
 In the summer of 2025, I worked with [Dr. M. Rozner](https://morozner.wixsite.com/mysite) under a summer internship at Institue of Astronomy, University of Cambridge. We generalised Heggie's law to binaries with non-zero eccentricity and used numerical 3-body simulations to verify the theoretical predictions.
 
