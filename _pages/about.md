@@ -2,6 +2,7 @@
 permalink: /
 title: "About Me"
 author_profile: true
+description: "A physicist from Oxford"
 redirect_from: 
   - /about/
   - /about.html
