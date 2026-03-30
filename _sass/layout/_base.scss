@@ -15,8 +15,12 @@ body {
   margin: 0;
   padding: $masthead-height 0 0;
   padding-bottom: 9em;
+  font-size: 17px;
   font-family: $global-font-family;
-  line-height: 1.5;
+  line-height: 1.72;
+  letter-spacing: 0.005em;
+  -webkit-font-smoothing: auto;
+  text-rendering: optimizeLegibility;
 
   &.overflow--hidden {
     /* when primary navigation is visible, the content in the background won't scroll */
@@ -25,8 +29,8 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  margin: 2em 0 0.5em;
-  line-height: 1.2;
+  margin: 1.7em 0 0.5em;
+  line-height: 1.25;
   font-family: $header-font-family;
   font-weight: bold;
 }
@@ -61,7 +65,7 @@ small, .small {
 }
 
 p {
-  margin-bottom: 1.3em;
+  margin-bottom: 1.1em;
 }
 
 u,
@@ -123,6 +127,17 @@ a {
   &:active {
     outline: 0;
   }
+}
+
+/* Unified keyboard focus treatment for interactive elements */
+:focus-visible {
+  outline: 2px solid var(--global-link-color);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+::selection {
+  background: rgba(11, 92, 107, 0.16);
 }
 
 /* code */
@@ -336,6 +351,16 @@ nav {
 b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a, tr, td, form button, input[type="submit"], .btn, .highlight, .archive__item-teaser {
   -webkit-transition: $global-transition;
   transition: $global-transition;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation: none !important;
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
 }
 
 /* ==========================================================================

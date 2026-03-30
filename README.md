@@ -2,7 +2,23 @@
 
 Personal website of Wenkang Xin, hosted on GitHub Pages.
 
-Use ``bundle exec jekyll serve --port 4001`` to run the site locally. You can then access the site from `localhost:4001`.
+Use Ruby `3.3.0` (see `.ruby-version`) for local development.
+
+If needed, initialize `rbenv` in your shell first:
+
+```bash
+eval "$(rbenv init - zsh)"
+ruby -v
+```
+
+Then run:
+
+```bash
+bundle install
+bundle exec jekyll serve --port 4001
+```
+
+You can then access the site at `http://localhost:4001`.
 
 ## Credits
 

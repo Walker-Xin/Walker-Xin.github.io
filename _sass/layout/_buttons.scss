@@ -17,13 +17,16 @@
   font-weight: bold;
   text-align: center;
   text-decoration: none;
-  background-color: mix(white, #000, 20%);
+  background-color: var(--global-link-color);
   border: 0 !important;
   border-radius: $border-radius;
   cursor: pointer;
+  transition: background-color 0.2s ease, box-shadow 0.2s ease;
 
-  &:hover {
-    background-color: mix(white, #000, 20%);
+  &:hover,
+  &:focus-visible {
+    background-color: var(--global-link-color-hover);
+    box-shadow: 0 0 0 3px rgba(11, 92, 107, 0.2);
   }
 
   .icon {
