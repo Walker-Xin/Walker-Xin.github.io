@@ -14,6 +14,6 @@ Prior to university, I completed my O- and A-Levels in Singapore under the MOE J
 
 ## Hobbies
 
-I play [video games](https://www.faceit.com/en/players/Walkerxin) competitively. I am currently the captain and IGL (in-game leader) for [Counter-Strike](https://www.twitch.tv/videos/2728372888) team of the Oxford University Esports Society.
+I play [video games](https://www.faceit.com/en/players/Walkerxin) competitively. I am currently the captain and IGL (in-game leader) for [Counter-Strike](https://www.twitch.tv/videos/2728372888?t=1h16m31s) team of the Oxford University Esports Society.
 
 I brew coffee (filter with V60 and espresso with 9Barista) and enjoy reading science fiction and social science books.
