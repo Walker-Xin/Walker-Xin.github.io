@@ -258,6 +258,18 @@
                 transform: scaleX(1); /* reveal*/
       }
     }
+
+    .masthead__menu-item--active a {
+      color: var(--global-link-color);
+      font-weight: 600;
+
+      &:before {
+        background: var(--global-link-color);
+        -webkit-transform: scaleX(1);
+            -ms-transform: scaleX(1);
+                transform: scaleX(1);
+      }
+    }
   }
 
   .hidden-links {
@@ -311,6 +323,11 @@
     li {
       display: block;
       border-bottom: 1px solid var(--global-border-color);
+
+      &.masthead__menu-item--active a {
+        color: var(--global-link-color);
+        font-weight: 600;
+      }
 
       &:last-child {
         border-bottom: none;

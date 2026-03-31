@@ -1,5 +1,49 @@
 <script src="{{ base_path }}/assets/js/main.min.js"></script>
 
+<script>
+	function normalizeLinkTargets() {
+		var links = document.querySelectorAll("a[href]");
+		links.forEach(function (link) {
+			if (link.closest(".masthead")) {
+				link.removeAttribute("target");
+				link.removeAttribute("rel");
+				return;
+			}
+
+			var href = (link.getAttribute("href") || "").trim();
+			if (!href || href.startsWith("#") || href.toLowerCase().startsWith("javascript:")) {
+				return;
+			}
+
+			var url;
+			try {
+				url = new URL(href, window.location.href);
+			} catch (e) {
+				link.removeAttribute("target");
+				link.removeAttribute("rel");
+				return;
+			}
+
+			var isHttp = url.protocol === "http:" || url.protocol === "https:";
+			var isOffDomain = url.origin !== window.location.origin;
+
+			if (isHttp && isOffDomain) {
+				link.setAttribute("target", "_blank");
+				link.setAttribute("rel", "noopener noreferrer");
+			} else {
+				link.removeAttribute("target");
+				link.removeAttribute("rel");
+			}
+		});
+	}
+
+	if (document.readyState === "loading") {
+		document.addEventListener("DOMContentLoaded", normalizeLinkTargets);
+	} else {
+		normalizeLinkTargets();
+	}
+</script>
+
 <script src="{{ base_path }}/assets/js/email-conversion.js" defer></script>
 
 {% include analytics.html %}
