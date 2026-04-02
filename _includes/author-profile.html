@@ -4,24 +4,48 @@
   {% assign author = site.data.authors[page.author] %}{% else %}{% assign author = site.author %}
 {% endif %}
 
-<div itemscope itemtype="http://schema.org/Person">
+<div class="author__profile" itemscope itemtype="http://schema.org/Person">
 
-  <div class="author__avatar">
-    {% if author.avatar contains "://" %}
-    	<img src="{{ author.avatar }}" alt="{{ author.name }}">
-    {% else %}
-    	<img src="{{ author.avatar | prepend: "/images/" | prepend: base_path }}" class="author__avatar" alt="{{ author.name }}">
-    {% endif %}
-  </div>
+  <div class="author__identity">
+    <div class="author__avatar">
+      {% if author.avatar contains "://" %}
+	      <img src="{{ author.avatar }}" alt="{{ author.name }}">
+      {% else %}
+	      <img src="{{ author.avatar | prepend: "/images/" | prepend: base_path }}" class="author__avatar" alt="{{ author.name }}">
+      {% endif %}
+    </div>
 
-  <div class="author__content">
-    <h3 class="author__name">{{ author.name }}</h3>
-    {% if author.pronouns %}<p class="author__pronouns">{{ author.pronouns }}</p>{% endif %}
-    {% if author.bio %}<p class="author__bio">{{ author.bio }}</p>{% endif %}
+    <div class="author__content">
+      <h3 class="author__name">{{ author.name }}</h3>
+      {% if author.pronouns %}<p class="author__pronouns">{{ author.pronouns }}</p>{% endif %}
+      {% if author.bio %}<p class="author__bio">{{ author.bio }}</p>{% endif %}
+    </div>
   </div>
 
   <div class="author__urls-wrapper">
-    <button class="btn btn--inverse">More</button>
+    <div class="author__quick-links social-icons">
+      {% if author.email %}
+        <a class="email-link-convert" rel="nofollow" href="{{ base_path }}/to-email/" aria-label="Email" title="Email" data-u="{{ author.email | split: '@' | first | split: '' | reverse | join: '' }}" data-d="{{ author.email | split: '@' | last | split: '' | reverse | join: '' }}">
+          <i class="fas fa-fw fa-envelope" aria-hidden="true"></i>
+        </a>
+      {% endif %}
+      {% if author.googlescholar %}
+        <a href="{{ author.googlescholar }}" aria-label="Google Scholar" title="Google Scholar">
+          <i class="ai ai-google-scholar" aria-hidden="true"></i>
+        </a>
+      {% endif %}
+      {% if author.github %}
+        <a href="https://github.com/{{ author.github }}" aria-label="GitHub" title="GitHub">
+          <i class="fab fa-fw fa-github" aria-hidden="true"></i>
+        </a>
+      {% endif %}
+      {% if author.linkedin %}
+        <a href="https://www.linkedin.com/in/{{ author.linkedin }}" aria-label="LinkedIn" title="LinkedIn">
+          <i class="fab fa-fw fa-linkedin" aria-hidden="true"></i>
+        </a>
+      {% endif %}
+    </div>
+
     <ul class="author__urls social-icons">
       <!-- Font Awesome icons / Biographic information  -->
       {% if author.location %}
