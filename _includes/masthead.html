@@ -7,7 +7,7 @@
         <button><div class="navicon"></div></button>
         <ul class="visible-links">
           {% assign current_url = page.url | replace: 'index.html', '' %}
-          <li class="masthead__menu-item masthead__menu-item--lg persist{% if current_url == '/' %} masthead__menu-item--active{% endif %}"><a href="{{ base_path }}/"{% if current_url == '/' %} aria-current="page"{% endif %}>{{ site.title }}</a></li>
+          <li class="masthead__menu-item masthead__menu-item--lg persist{% if current_url == '/' %} masthead__menu-item--active{% endif %}"><a href="{{ base_path }}/"{% if current_url == '/' %} aria-current="page"{% endif %}><span class="masthead__home-title-full">{{ site.title }}</span><span class="masthead__home-title-short">W. X.</span></a></li>
           {% for link in site.data.navigation.main %}
             {% if link.url contains 'http' %}
               {% assign domain = '' %}
