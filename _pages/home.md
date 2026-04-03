@@ -6,7 +6,9 @@ description: "Wenkang Xin's personal website"
 show_title: false
 ---
 
-I am a fourth-year MMathPhys student at the University of Oxford. My work focuses on theoretical astrophysics, spanning stellar dynamics and strong gravity.
+I am a fourth-year MMathPhys student at the University of Oxford.
+
+My work focuses on theoretical astrophysics, spanning stellar dynamics and strong gravity. In plain language, I study how stars and black holes move and interact with each other under the influence of gravity.
 
 ## Trajectory
 
