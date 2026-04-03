@@ -137,7 +137,13 @@ a {
 }
 
 ::selection {
-  background: rgba(11, 92, 107, 0.16);
+  color: #fff;
+  background: #0f4c5c;
+}
+
+::-moz-selection {
+  color: #fff;
+  background: #0f4c5c;
 }
 
 /* code */
