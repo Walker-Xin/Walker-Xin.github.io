@@ -6,9 +6,26 @@ description: "Wenkang Xin's personal website"
 show_title: false
 ---
 
-I am a fourth-year MMathPhys student at the University of Oxford.
+<!-- markdownlint-disable MD033 MD010 -->
+<section class="home-hero" aria-labelledby="home-hero-title">
+	<h1 id="home-hero-title" class="home-hero__title">I study how stars and black holes interact under gravity.</h1>
+	<p class="home-hero__lead">Fourth-year MMathPhys student, University of Oxford.</p>
 
-My work focuses on theoretical astrophysics, spanning stellar dynamics and strong gravity. In plain language, I study how stars and black holes move and interact with each other under the influence of gravity.
+	<ul class="home-timeline" aria-label="Academic timeline">
+		<li class="home-timeline__item">
+			<span class="home-timeline__period">2025-2026</span>
+			<span class="home-timeline__stage">MMathPhys</span>
+		</li>
+		<li class="home-timeline__item">
+			<span class="home-timeline__period">2022-2024</span>
+			<span class="home-timeline__stage">BA Physics</span>
+		</li>
+		<!-- <li class="home-timeline__item">
+			<span class="home-timeline__period">2018-2022</span>
+			<span class="home-timeline__stage">O/A-Levels</span>
+		</li> -->
+	</ul>
+</section>
 
 ## Trajectory
 

@@ -183,9 +183,17 @@
     padding: 0.5rem 0;
     color: var(--global-masthead-link-color);
     text-decoration: none;
+    font-size: 0.96rem;
 
     &:hover {
       color: var(--global-masthead-link-color-hover);
+    }
+  }
+
+  @media screen and (max-width: 760px) {
+    a {
+      margin: 0 0.44rem;
+      font-size: 0.9rem;
     }
   }
 
