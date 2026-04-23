@@ -12,6 +12,10 @@ show_title: false
 	<p class="home-hero__lead">Fourth-year MMathPhys student, University of Oxford.</p>
 
 	<ul class="home-timeline" aria-label="Academic timeline">
+		<!-- <li class="home-timeline__item">
+			<span class="home-timeline__period">2026-?</span>
+			<span class="home-timeline__stage">DPhil in Astrophysics</span>
+		</li> -->
 		<li class="home-timeline__item">
 			<span class="home-timeline__period">2025-2026</span>
 			<span class="home-timeline__stage">MMathPhys</span>
@@ -32,6 +36,8 @@ show_title: false
 I completed my 3-year undergraduate course in Physics and transferred to the Master of Mathematical and Theoretical Physics (MMathPhys) programme for my fourth year.
 
 Prior to university, I completed my O- and A-Levels in Singapore under the MOE JM3 Scholarship (otherwise known as the "SM1" scholarship). There, I participated in regional competitions such as the Singapore Physics Olympiad, and developed a keen interest in theoretical physics.
+
+Glad to announce that I will be pursuing a DPhil in Astrophysics at the University of Oxford, starting in October 2026. My research will focus on theoretical galactic dynamics.
 
 ## Hobbies
 
