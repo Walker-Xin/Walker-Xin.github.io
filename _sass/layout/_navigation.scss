@@ -263,6 +263,12 @@
     a {
       position: relative;
 
+      &:focus,
+      &:focus-visible {
+        outline: none;
+        box-shadow: none;
+      }
+
       &:before {
         content: "";
         position: absolute;
