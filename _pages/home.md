@@ -21,11 +21,11 @@ show_title: false
 			<span class="home-timeline__stage">MMathPhys</span>
 		</li>
 		<li class="home-timeline__item">
-			<span class="home-timeline__period">2022 – 2024</span>
+			<span class="home-timeline__period">2022 – 2025</span>
 			<span class="home-timeline__stage">BA Physics</span>
 		</li>
 		<!-- <li class="home-timeline__item">
-			<span class="home-timeline__period">2018-2022</span>
+			<span class="home-timeline__period">2018 – 2022</span>
 			<span class="home-timeline__stage">O/A-Levels</span>
 		</li> -->
 	</ul>
