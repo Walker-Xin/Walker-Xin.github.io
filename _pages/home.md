@@ -37,7 +37,7 @@ show_title: false
 		</div>
 		<div class="home-hero__spotlight-item">
 			<span class="home-hero__spotlight-date">2025 Dec</span>
-			<span><strong>Paper accepted in PRD</strong>: General analytic framework for the relativistic tidal tensor in stationary axisymmetric spacetimes (arXiv: 2511.21499).</span>
+			<span><strong>Paper accepted in PRD</strong>: General analytic framework for the relativistic tidal tensor (arXiv: 2511.21499).</span>
 		</div>
 	</div>
 </section>
