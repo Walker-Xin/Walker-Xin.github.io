@@ -253,6 +253,30 @@
   }
 }
 
+.home-hero__spotlight {
+  margin-top: 1.25rem;
+  padding-top: 0.85rem;
+  border-top: 1px solid var(--global-border-color);
+  display: grid;
+  gap: 0.45rem;
+}
+
+.home-hero__spotlight-item {
+  display: grid;
+  grid-template-columns: 4.5rem minmax(0, 1fr);
+  column-gap: 0.8rem;
+  align-items: baseline;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.home-hero__spotlight-date {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--global-accent-color-deep);
+  letter-spacing: 0.01em;
+}
+
 .home-section {
   margin-bottom: 2.1rem;
 
@@ -284,6 +308,58 @@
     color: var(--global-text-color-light);
     text-align: center;
   }
+}
+
+/* ── Research entries (publication cards) ── */
+.research-entry {
+  margin-bottom: 2.4rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid var(--global-border-color);
+
+  &:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+  }
+
+  /* ## markdown heading */
+  h2 {
+    margin: 0 0 0.15rem;
+    font-size: $type-size-5;
+    border-bottom: none;
+    padding-bottom: 0;
+
+    a {
+      text-decoration: none;
+    }
+  }
+
+  /* excerpt paragraph */
+  > p {
+    margin: 0.5rem 0 0;
+    max-width: 75ch;
+    line-height: 1.6;
+  }
+}
+
+/* ── Citation line ── */
+.citation {
+  margin: 0.15rem 0 0;
+  font-size: 0.88rem;
+  color: var(--global-text-color-light);
+  line-height: 1.5;
+}
+
+.citation__authors {
+  color: var(--global-text-color);
+}
+
+.citation__authors u {
+  text-underline-offset: 0.15em;
+}
+
+.citation__link {
+  font-weight: 600;
+  white-space: nowrap;
 }
 
 .home-grid {

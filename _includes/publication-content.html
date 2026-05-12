@@ -1,0 +1,18 @@
+{%- include base_path -%}
+{%- assign pub = site.publications | where: "slug", include.slug | first -%}
+{%- if pub -%}
+{%- if pub.bib_key %}
+{% include citation.html key=pub.bib_key %}
+{% endif -%}
+{%- if pub.excerpt %}
+<p>{{ pub.excerpt }}</p>
+{% endif -%}
+{%- if pub.image %}
+<figure class="research-figure">
+  <img src="{{ pub.image | prepend: base_path }}" alt="{{ pub.image_caption | default: pub.title }}" loading="lazy">
+{%- if pub.image_caption %}
+  <figcaption>{{ pub.image_caption }}</figcaption>
+{% endif -%}
+</figure>
+{% endif -%}
+{%- endif -%}

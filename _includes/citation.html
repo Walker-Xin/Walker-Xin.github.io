@@ -1,0 +1,14 @@
+{%- assign bib = site.bibliography[include.key] -%}
+{%- if bib -%}
+<p class="citation">
+{%- if bib.author -%}
+{%- assign authors = bib.author | replace: " and", "," | replace: "Wenkang Xin", '<u>Wenkang Xin</u>' -%}
+{{ authors -}}
+{%- endif -%}
+{%- if bib.title -%}, {{ bib.title }},{%- endif -%}
+{%- if bib.journaltitle %} <i>{{ bib.journaltitle }}</i>{% if bib.volume %} <b>{{ bib.volume }}</b>{% endif %}{% if bib.pages %}, {{ bib.pages }}{% endif %}{% if bib.year %} ({{ bib.year }}){%- endif -%}
+{%- elsif bib.journal %} <i>{{ bib.journal }}</i>{% if bib.volume %} <b>{{ bib.volume }}</b>{% endif %}{% if bib.pages %}, {{ bib.pages }}{% endif %}{% if bib.year %} ({{ bib.year }}){%- endif -%}
+{%- elsif bib.note %} {{ bib.note }}{% if bib.year %} ({{ bib.year }}){%- endif -%}
+{%- elsif bib.year %} ({{ bib.year }}){%- endif -%}.
+</p>
+{%- endif -%}
