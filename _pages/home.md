@@ -8,8 +8,8 @@ show_title: false
 
 <!-- markdownlint-disable MD033 MD010 -->
 <section class="home-hero" aria-labelledby="home-hero-title">
-	<h1 id="home-hero-title" class="home-hero__title">I study how stars and black holes interact under gravity.</h1>
-	<!-- <p class="home-hero__lead">Fourth-year MMathPhys student, University of Oxford.</p> -->
+	<h1 id="home-hero-title" class="home-hero__title">I study how stellar bodies interact under gravity.</h1>
+	<p class="home-hero__lead">Fourth-year MMathPhys student, University of Oxford.</p>
 
 	<ul class="home-timeline" aria-label="Academic timeline">
 		<li class="home-timeline__item">
