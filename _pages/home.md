@@ -9,7 +9,7 @@ show_title: false
 <!-- markdownlint-disable MD033 MD010 -->
 <section class="home-hero" aria-labelledby="home-hero-title">
 	<h1 id="home-hero-title" class="home-hero__title">I study how stars and black holes interact under gravity.</h1>
-	<p class="home-hero__lead">Fourth-year MMathPhys student, University of Oxford.</p>
+	<!-- <p class="home-hero__lead">Fourth-year MMathPhys student, University of Oxford.</p> -->
 
 	<ul class="home-timeline" aria-label="Academic timeline">
 		<li class="home-timeline__item">
@@ -37,25 +37,20 @@ show_title: false
 		</div>
 		<div class="home-hero__spotlight-item">
 			<span class="home-hero__spotlight-date">2025 Dec</span>
-			<span><strong>Paper accepted in PRD</strong>: General analytic framework for the relativistic tidal tensor (arXiv: 2511.21499).</span>
+			<span><strong>Paper accepted in PRD</strong>: General analytic framework for the relativistic tidal tensor (<a href="https://arxiv.org/abs/2511.21499">arXiv: 2511.21499</a>).</span>
 		</div>
 	</div>
 </section>
 
-<section class="home-section">
-	<h2>Research Interests</h2>
-	<p>I work at the intersection of <strong>general relativity</strong> and <strong>stellar dynamics</strong>, focusing on how stars and black holes interact across different extremes of gravity. My research topics include tidal disruption events, perturbation theory of stellar dynamics, and relativistic tidal forces. I develop both analytic frameworks and numerical tools to study these phenomena.</p>
-</section>
+## Research Interests
 
-<section class="home-section">
-	<h2>Trajectory</h2>
+I work at the intersection of **general relativity** and **stellar dynamics**, focusing on how stars and black holes interact across different extremes of gravity. My research topics include tidal disruption events, perturbation theory of stellar dynamics, and relativistic tidal forces. I develop both analytic frameworks and numerical tools to study these phenomena.
 
-	<p>
-	I studied in Singapore for my pre-university education, where I completed the O- and A-Levels. I finished my 3-year undergraduate course in Physics and transferred to the Master of Mathematical and Theoretical Physics (MMathPhys) programme for my fourth year.
-	</p>
+## Trajectory
 
-	<p>I am glad to announce that I will be pursuing a DPhil in Astrophysics at the University of Oxford, starting in October 2026.</p>
-</section>
+I studied in Singapore for my pre-university education, where I completed the O- and A-Levels. I finished my 3-year undergraduate course in Physics and transferred to the Master of Mathematical and Theoretical Physics (MMathPhys) programme for my fourth year.
+
+I am glad to announce that I will be pursuing a DPhil in Astrophysics at the University of Oxford, starting in October 2026.
 
 ## Hobbies
 
