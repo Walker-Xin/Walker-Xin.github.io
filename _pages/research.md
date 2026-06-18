@@ -16,9 +16,11 @@ My DPhil will focus on theoretical galactic dynamics. This project is supervised
 
 ## TDE rates around spinning black holes
 
-<!-- {% include citation.html key="Xin2026" %} -->
+As my MMathPhys dissertation, we developed a general analytic framework for tidal disruption event (TDE) rates in isotropic galaxies hosting spinning Kerr black holes. We formulated a loss cone theory that tracks the simultaneous diffusion of stars in both angular momentum magnitude and orientation. It was shown that a spinning black hole does not significantly change the overall TDE rate, but strongly affects the distribution of the orbital inclinations of disrupted stars.
 
-I am now working on my Master's dissertation, where I apply our results in relativistic tidal forces in the context of stellar dynamics to predict rates of tidal disruption events in a galaxy. This work is supervised by [Prof J Binney](https://www.physics.ox.ac.uk/our-people/binney) and [Dr Y B Ginat](https://www.physics.ox.ac.uk/our-people/ginat) under the Dyson Fellows programme, where we learn about frontier research in galactic dynamics.
+This work is supervised by [Prof J Binney](https://www.physics.ox.ac.uk/our-people/binney). The project was conceived during the Dyson Fellows programme under Prof Binney and [Dr Y B Ginat](https://www.physics.ox.ac.uk/our-people/ginat), where we learn about frontier research in galactic dynamics.
+
+{% include citation.html key="Xin2026dissertation" %}
 
 <figure class="research-figure">
 	<img src="/images/research/tde_rates_vs_mass_python.png" alt="Predicted tidal disruption event rates as a function of mass." loading="lazy">

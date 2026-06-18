@@ -32,6 +32,10 @@ show_title: false
 
 	<div class="home-hero__spotlight">
 		<div class="home-hero__spotlight-item">
+			<span class="home-hero__spotlight-date">2026 June</span>
+			<span><strong>MMathPhys dissertation</strong>: 2D loss cone theory for TDE rates (<a href="https://arxiv.org/abs/2606.18050">arXiv: 2606.18050</a>).</span>
+		</div>
+		<div class="home-hero__spotlight-item">
 			<span class="home-hero__spotlight-date">2026 May</span>
 			<span><strong>Jardine Scholarship</strong>: Supporting DPhil in Astrophysics at Oxford.</span>
 		</div>
