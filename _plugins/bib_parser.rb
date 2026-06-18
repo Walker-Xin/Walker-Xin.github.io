@@ -1,9 +1,12 @@
 # _plugins/bib_parser.rb
-# Parses _publications/references.bib at build time and exposes
-# site.config['bibliography'] as a hash of key => entry fields.
+# Parses _publications/references.bib at build time and:
+#   1. Exposes site.config['bibliography'] as a hash of key => entry fields.
+#   2. Writes _data/bibliography.yml so GitHub Pages (--safe mode) can use it.
 #
 # Each entry key maps to a hash with lowercase field names, e.g.:
 #   { "author" => "Wenkang Xin and ...", "title" => "...", ... }
+
+require 'yaml'
 
 module Jekyll
   module BibParser
@@ -31,6 +34,11 @@ module Jekyll
 
       site.config['bibliography'] = entries
       Jekyll.logger.info "BibParser:", "Loaded #{entries.size} entries from references.bib"
+
+      # Write _data/bibliography.yml for GitHub Pages compatibility
+      yaml_path = File.join(site.source, '_data', 'bibliography.yml')
+      File.write(yaml_path, YAML.dump(entries))
+      Jekyll.logger.info "BibParser:", "Wrote #{entries.size} entries to _data/bibliography.yml"
     end
   end
 end
