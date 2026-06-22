@@ -48,14 +48,17 @@ show_title: false
 
 ## Research Interests
 
-I work at the intersection of **general relativity** and **stellar dynamics**, focusing on how stars and black holes interact across different extremes of gravity. My research topics include tidal disruption events, perturbation theory of stellar dynamics, and relativistic tidal forces. I develop both analytic frameworks and numerical tools to study these phenomena.
+I work at the intersection of **general relativity** and **stellar dynamics**, focusing on how stars and black holes interact across different extremes of gravity. Topics include tidal disruption events and perturbation theory for galactic seismology. I develop both analytic frameworks and numerical tools to study these phenomena.
 
 ## Trajectory
 
 I studied in Singapore for my pre-university education, where I completed the O- and A-Levels. I finished my 3-year undergraduate course in Physics and transferred to the Master of Mathematical and Theoretical Physics (MMathPhys) programme for my fourth year.
 
-I am glad to announce that I will be pursuing a DPhil in Astrophysics at the University of Oxford, starting in October 2026.
-
 ## Hobbies
 
-I play [video games](https://www.faceit.com/en/players/Walkerxin) competitively. I am currently the captain for [Counter-Strike](https://www.twitch.tv/videos/2728372888?t=1h16m31s) team of the Oxford University Esports Society. I also enjoy brewing pour-over coffee.
+I play [video games](https://www.faceit.com/en/players/Walkerxin) competitively. I am the captain for [Counter-Strike](https://www.twitch.tv/videos/2728372888?t=1h16m31s) team of the Oxford University Esports Society. I also enjoy brewing pour-over coffee.
+
+<figure class="research-figure">
+	<img src="/images/home/v60_ioa.jpeg" alt="Coffee in the reading room of the Observatory Library at Institute of Astronomy, Cambridge." loading="lazy">
+	<figcaption>Coffee in the reading room of the Observatory Library at Institute of Astronomy, Cambridge.</figcaption>
+</figure>
