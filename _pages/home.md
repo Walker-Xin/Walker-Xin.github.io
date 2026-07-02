@@ -59,6 +59,6 @@ I studied in Singapore for my pre-university education, where I completed the O-
 I play [video games](https://www.faceit.com/en/players/Walkerxin) competitively. I am the captain for [Counter-Strike](https://www.twitch.tv/videos/2728372888?t=1h16m31s) team of the Oxford University Esports Society. I also enjoy brewing pour-over coffee.
 
 <figure class="research-figure">
-	<img src="/images/home/v60_ioa.jpeg" alt="Coffee in the reading room of the Observatory Library at Institute of Astronomy, Cambridge." loading="lazy">
-	<figcaption>Coffee in the reading room of the Observatory Library at Institute of Astronomy, Cambridge.</figcaption>
+	<img src="/images/home/v60_ioa.jpeg" alt="Reading room of the Observatory Library at Institute of Astronomy, Cambridge." loading="lazy">
+	<figcaption>Reading room of the Observatory Library at Institute of Astronomy, Cambridge.</figcaption>
 </figure>
