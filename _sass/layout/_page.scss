@@ -127,12 +127,12 @@
 
 /* Homepage sections */
 .home-hero {
-  margin-bottom: 2.8rem;
+  margin-bottom: 1.4rem;
   padding: 1.35rem 1.2rem 1.15rem;
   border: 1px solid var(--global-border-color);
   border-radius: 12px;
   background: var(--global-hero-gradient);
-  box-shadow: var(--global-elevated-shadow);
+  box-shadow: 0 8px 22px rgba(17, 35, 54, 0.045);
   animation: homeReveal 420ms ease-out both;
 }
 
@@ -253,28 +253,42 @@
   }
 }
 
-.home-hero__spotlight {
-  margin-top: 1.25rem;
-  padding-top: 0.85rem;
-  border-top: 1px solid var(--global-border-color);
-  display: grid;
-  gap: 0.45rem;
+.home-recent {
+  margin: 0 0 3rem;
+  padding: 0.35rem 1rem;
+  border: 1px solid var(--global-border-color);
+  border-left: 4px solid var(--global-accent-color);
+  border-radius: 0 9px 9px 0;
+  background: linear-gradient(110deg, var(--global-accent-color-soft) 0%, var(--global-bg-color) 48%);
+  animation: homeReveal 480ms 80ms ease-out both;
 }
 
-.home-hero__spotlight-item {
+.home-recent__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.home-recent__item {
   display: grid;
-  grid-template-columns: 4.5rem minmax(0, 1fr);
+  grid-template-columns: 4.8rem minmax(0, 1fr);
   column-gap: 0.8rem;
   align-items: baseline;
+  padding: 0.3rem 0;
+  border-top: 1px solid var(--global-border-color);
   font-size: 0.9rem;
   line-height: 1.5;
+
+  &:first-child {
+    border-top: 0;
+  }
 }
 
-.home-hero__spotlight-date {
-  font-size: 0.85rem;
-  font-weight: 700;
-  color: var(--global-accent-color-deep);
-  letter-spacing: 0.01em;
+.home-recent__date {
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--global-text-color-light);
+  white-space: nowrap;
 }
 
 .home-section {
@@ -441,10 +455,21 @@
   .home-timeline .home-timeline__stage {
     font-size: 0.95rem;
   }
+
+  .home-recent {
+    margin-bottom: 2.4rem;
+    padding: 0.3rem 0.75rem;
+  }
+
+  .home-recent__item {
+    grid-template-columns: 1fr;
+    row-gap: 0.08rem;
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {
   .home-hero,
+  .home-recent,
   .home-card,
   .home-cta {
     animation: none !important;

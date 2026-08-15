@@ -29,21 +29,23 @@ show_title: false
 			<span class="home-timeline__stage">O/A-Levels</span>
 		</li> -->
 	</ul>
+</section>
 
-	<div class="home-hero__spotlight">
-		<div class="home-hero__spotlight-item">
-			<span class="home-hero__spotlight-date">2026 Jun</span>
-			<span><strong>MMathPhys dissertation</strong>: 2D loss cone theory for TDE rates (<a href="https://arxiv.org/abs/2606.18050">arXiv: 2606.18050</a>).</span>
-		</div>
-		<div class="home-hero__spotlight-item">
-			<span class="home-hero__spotlight-date">2026 May</span>
-			<span><strong>Jardine Scholarship</strong>: Supporting DPhil in Astrophysics at Oxford.</span>
-		</div>
-		<div class="home-hero__spotlight-item">
-			<span class="home-hero__spotlight-date">2025 Dec</span>
-			<span><strong>Paper accepted in PRD</strong>: General analytic framework for the relativistic tidal tensor (<a href="https://arxiv.org/abs/2511.21499">arXiv: 2511.21499</a>).</span>
-		</div>
-	</div>
+<section class="home-recent" aria-label="Recent updates">
+	<ul class="home-recent__list">
+		<li class="home-recent__item">
+			<time class="home-recent__date" datetime="2026-06">Jun 2026</time>
+			<span><strong>MMathPhys dissertation:</strong> 2D loss cone theory for TDE rates · <a href="https://arxiv.org/abs/2606.18050">arXiv</a></span>
+		</li>
+		<li class="home-recent__item">
+			<time class="home-recent__date" datetime="2026-05">May 2026</time>
+			<span><strong>Jardine Scholarship:</strong> Supporting DPhil in Astrophysics at Oxford</span>
+		</li>
+		<!-- <li class="home-recent__item">
+			<time class="home-recent__date" datetime="2025-12">Dec 2025</time>
+			<span><strong>Paper accepted in Physical Review D:</strong> General analytic framework for the relativistic tidal tensor · <a href="https://arxiv.org/abs/2511.21499">arXiv</a></span>
+		</li> -->
+	</ul>
 </section>
 
 ## Research Interests
