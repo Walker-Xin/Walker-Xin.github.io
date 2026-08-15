@@ -1,0 +1,26 @@
+<div class="research-projects">
+  {% for project in include.projects %}
+    <details class="research-project">
+      <summary class="research-project__summary">
+        <span class="research-project__title">{{ project.title | escape }}</span>
+        <span class="research-project__dek">{{ project.summary | escape }}</span>
+      </summary>
+      <div class="research-project__details">
+        {% for paragraph in project.details %}
+          {{ paragraph | markdownify }}
+        {% endfor %}
+
+        {% if project.citation %}
+          {% include citation.html key=project.citation %}
+        {% endif %}
+
+        {% if project.figure %}
+          <figure class="research-figure">
+            <img src="{{ project.figure.src | relative_url }}" alt="{{ project.figure.alt | escape }}" loading="lazy">
+            <figcaption>{{ project.figure.caption | escape }}</figcaption>
+          </figure>
+        {% endif %}
+      </div>
+    </details>
+  {% endfor %}
+</div>
