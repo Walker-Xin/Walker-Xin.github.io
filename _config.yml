@@ -33,6 +33,7 @@ author:
   # cv               : "files/resume.pdf"
 
   # Academic websites
+  ads              : "https://ui.adsabs.harvard.edu/search/q=%3Dauthor%3A%22Xin%2C%20Wenkang%22"
   arxiv            : # URL - Update with the correct link to your profile
   googlescholar    : "https://scholar.google.com/citations?user=_Yy6nb0AAAAJ"
   impactstory      : # URL
