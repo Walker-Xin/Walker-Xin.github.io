@@ -293,7 +293,6 @@
 
     .masthead__menu-item--active a {
       color: var(--global-link-color);
-      font-weight: 600;
 
       &:before {
         background: var(--global-link-color);
@@ -358,7 +357,6 @@
 
       &.masthead__menu-item--active a {
         color: var(--global-link-color);
-        font-weight: 600;
       }
 
       &:last-child {

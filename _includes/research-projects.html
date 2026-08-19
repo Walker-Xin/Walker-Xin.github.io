@@ -1,6 +1,6 @@
 <div class="research-projects">
   {% for project in include.projects %}
-    <details class="research-project">
+    <details class="research-project" data-persist-details data-details-key="{{ project.title | slugify }}"{% if forloop.first %} open{% endif %}>
       <summary class="research-project__summary">
         <span class="research-project__title">{{ project.title | escape }}</span>
         <span class="research-project__dek">{{ project.summary | escape }}</span>

@@ -33,6 +33,10 @@ show_title: false
 
 <section class="home-recent" aria-label="Recent updates">
 	<ul class="home-recent__list">
+	<li class="home-recent__item">
+			<time class="home-recent__date" datetime="2026-08">Aug 2026</time>
+			<span><strong>Short paper:</strong> Inclination diffusion in loss cones · <a href="https://arxiv.org/abs/2608.16779">arXiv</a></span>
+		</li>
 		<li class="home-recent__item">
 			<time class="home-recent__date" datetime="2026-06">Jun 2026</time>
 			<span><strong>MMathPhys dissertation:</strong> 2D loss cone theory for TDE rates · <a href="https://arxiv.org/abs/2606.18050">arXiv</a></span>

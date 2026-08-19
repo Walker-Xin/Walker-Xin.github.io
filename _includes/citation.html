@@ -10,5 +10,8 @@
 {%- elsif bib.journal %} <i>{{ bib.journal }}</i>{% if bib.volume %} <b>{{ bib.volume }}</b>{% endif %}{% if bib.pages %}, {{ bib.pages }}{% endif %}{% if bib.year %} ({{ bib.year }}){%- endif -%}
 {%- elsif bib.note %} {{ bib.note }}{% if bib.year %} ({{ bib.year }}){%- endif -%}
 {%- elsif bib.year %} ({{ bib.year }}){%- endif -%}.
+{%- if bib.eprint %}
+ <a class="citation__link" href="https://arxiv.org/abs/{{ bib.eprint | escape }}">arXiv:{{ bib.eprint }}</a>.
+{%- endif %}
 </p>
 {%- endif -%}

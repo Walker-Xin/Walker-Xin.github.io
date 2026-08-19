@@ -72,6 +72,68 @@
     return path || "/";
   }
 
+  function getPersistableDetails() {
+    return Array.prototype.slice.call(document.querySelectorAll("details[data-persist-details][data-details-key]"));
+  }
+
+  function getDetailsStorageKey() {
+    return "persistent-details:" + normalizePath(window.location.pathname);
+  }
+
+  function persistDetailsState() {
+    var details = getPersistableDetails();
+    if (!details.length) {
+      return;
+    }
+
+    var state = {};
+    details.forEach(function (item) {
+      state[item.getAttribute("data-details-key")] = item.open;
+    });
+
+    try {
+      window.sessionStorage.setItem(getDetailsStorageKey(), JSON.stringify(state));
+    } catch (error) {
+      // Keep details functional when storage is unavailable.
+    }
+  }
+
+  function restorePersistedDetailsState() {
+    var details = getPersistableDetails();
+    if (!details.length) {
+      return;
+    }
+
+    var storedState;
+    try {
+      storedState = window.sessionStorage.getItem(getDetailsStorageKey());
+    } catch (error) {
+      return;
+    }
+
+    if (storedState === null) {
+      return;
+    }
+
+    try {
+      var state = JSON.parse(storedState);
+      details.forEach(function (item) {
+        var key = item.getAttribute("data-details-key");
+        if (Object.prototype.hasOwnProperty.call(state, key)) {
+          item.open = state[key];
+        }
+      });
+    } catch (error) {
+      window.sessionStorage.removeItem(getDetailsStorageKey());
+    }
+  }
+
+  function onDetailsToggle(event) {
+    if (event.target.matches("details[data-persist-details][data-details-key]")) {
+      persistDetailsState();
+    }
+  }
+
   function updateMastheadActiveState() {
     var nav = document.querySelector("#site-nav");
     if (!nav) {
@@ -143,6 +205,7 @@
     }
 
     updateMastheadActiveState();
+    restorePersistedDetailsState();
 
     if (window.jQuery && window.jQuery.fn && window.jQuery.fn.smoothScroll) {
       window.jQuery("a").smoothScroll({ offset: -65 });
@@ -250,6 +313,8 @@
   }
 
   document.addEventListener("click", onDocumentClick);
+  document.addEventListener("toggle", onDetailsToggle, true);
   window.addEventListener("popstate", onPopState);
   updateMastheadActiveState();
+  restorePersistedDetailsState();
 })();

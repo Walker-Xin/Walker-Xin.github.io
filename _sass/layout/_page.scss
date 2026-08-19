@@ -508,8 +508,19 @@
 }
 
 .citation__link {
-  font-weight: 600;
+  color: inherit;
+  font-weight: inherit;
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
   white-space: nowrap;
+
+  &:visited,
+  &:hover,
+  &:focus {
+    color: inherit;
+    font-weight: inherit;
+    text-decoration: underline;
+  }
 }
 
 .home-grid {

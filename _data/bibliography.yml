@@ -15,11 +15,13 @@ Xin2025:
   primaryclass: gr-qc
   url: https://doi.org/10.1103/xdm3-48nb
 Xin2026:
-  author: Wenkang Xin and James Binney and Andrew Mummery
-  title: Relativistic Loss-Cone Theory for Tidal Disruption Events around Spinning
-    Black Holes
+  author: Wenkang Xin
+  title: Inclination Diffusion in Relativistic Loss Cones
   year: '2026'
-  note: in prep
+  eprint: '2608.16779'
+  eprinttype: arxiv
+  primaryclass: astro-ph.HE
+  url: https://arxiv.org/abs/2608.16779
 Xin2026dissertation:
   author: Wenkang Xin
   title: A Semi-Analytical Loss Cone Theory for Tidal Disruption Event Rates Around

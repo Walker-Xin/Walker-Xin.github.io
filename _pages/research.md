@@ -24,6 +24,15 @@ research_projects:
         will be working on the dynamics of stars in our local galaxy using
         perturbation theory.
 
+  - title: "Role of orbital inclination in loss cones"
+    summary: "Inclination diffusion cannot be ignored."
+    details:
+      - >-
+        Stars in a galaxy sometimes get killed by a supermassive black hole at the centre.
+        Whether a star is swallowed (captured) or torn apart (disrupted) by a spinning black hole depends on the orientation of its orbit because the spin creates a preferred direction.
+        I showed that, when calculating the rates of such extreme events, we have to account for changes in orbital orientation due to stochastic stellar encounters.
+    citation: "Xin2026"
+
   - title: "TDE rates around spinning black holes"
     summary: "Two-dimensional loss-cone theory for TDEs."
     details:
