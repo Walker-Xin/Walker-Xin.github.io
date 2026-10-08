@@ -56,13 +56,11 @@ show_title: false
 
 I work at the intersection of **general relativity** and **stellar dynamics**, focusing on how stars and black holes interact across different extremes of gravity. Topics include tidal disruption events and perturbation theory for galactic seismology. I develop both analytic frameworks and numerical tools to study these phenomena.
 
-## Trajectory
+## About Me
 
-I studied in Singapore for my pre-university education, where I completed the O- and A-Levels. I finished my 3-year undergraduate course in Physics and transferred to the Master of Mathematical and Theoretical Physics (MMathPhys) programme for my fourth year.
+I studied in Singapore for my pre-university education, where I completed the O- and A-Levels. Then I went on for the Oxford undergraduate course in Physics and transferred to the Master of Mathematical and Theoretical Physics (MMathPhys) programme for my fourth year.
 
-## Hobbies
-
-I play [video games](https://www.faceit.com/en/players/Walkerxin) competitively. I am the captain for [Counter-Strike](https://www.twitch.tv/videos/2728372888?t=1h16m31s) team of the Oxford University Esports Society. I also enjoy brewing pour-over coffee.
+I play [video games](https://www.faceit.com/en/players/Walkerxin) competitively, and I serve as the captain for [Counter-Strike](https://www.twitch.tv/videos/2728372888?t=1h16m31s) team of the Oxford University Esports Society. I also enjoy brewing pour-over coffee.
 
 <figure class="research-figure">
 	<img src="/images/home/v60_ioa.jpeg" alt="Reading room of the Observatory Library at Institute of Astronomy, Cambridge." loading="lazy">
