@@ -32,6 +32,10 @@ research_projects:
         Whether a star is swallowed (captured) or torn apart (disrupted) by a spinning black hole depends on the orientation of its orbit because the spin creates a preferred direction.
         I showed that, when calculating the rates of such extreme events, we have to account for changes in orbital orientation due to stochastic stellar encounters.
     citation: "Xin2026"
+    figure:
+      src: "/images/research/figure_loss_boundaries.png"
+      alt: "Tidal disruption and horizon capture boundaries for a star around a spinning black hole."
+      caption: "Tidal disruption and horizon capture boundaries for a star around a spinning black hole."
 
   - title: "TDE rates around spinning black holes"
     summary: "Two-dimensional loss-cone theory for TDEs."
